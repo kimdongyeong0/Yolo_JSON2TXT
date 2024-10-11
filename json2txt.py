@@ -50,7 +50,7 @@ def process_json_file(json_file_path, output_directory, image_width, image_heigh
         print(f"Processed: {image_name}")
 
 def main():
-    base_path = 'add box_track_20 file path'
+    base_path = 'add box_track_20 folder path'
     train_dir = os.path.join(base_path, 'train')
     val_dir = os.path.join(base_path, 'val')
     
