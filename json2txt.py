@@ -50,7 +50,7 @@ def process_json_file(json_file_path, output_directory, image_width, image_heigh
         print(f"Processed: {image_name}")
 
 def main():
-    base_path = '/home/dykim/lava/lava-dl/tutorials/lava/lib/dl/slayer/tiny_yolo_sdnn/data/bdd100k/labels/box_track_20'
+    base_path = 'add box_track_20 file path'
     train_dir = os.path.join(base_path, 'train')
     val_dir = os.path.join(base_path, 'val')
     
